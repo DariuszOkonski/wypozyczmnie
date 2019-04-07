@@ -65,6 +65,12 @@ $('.ourEvents').on('click', function () {
   }, 1500);
 });
 
+$('.ourPartners').on('click', function () {
+  $('body, html').animate({
+    scrollTop: $('#ourPartners').offset().top
+  }, 1500);
+});
+
 // $('nav a').on('click', function () {
 //   // console.log($(this).attr('class'));
 //   $('body, html').animate({
