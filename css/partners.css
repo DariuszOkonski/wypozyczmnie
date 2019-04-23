@@ -10,7 +10,7 @@
 
 .partner {
   position: relative;
-  min-height: 30vh;
+  min-height: 17vh;
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
@@ -34,9 +34,10 @@
 
 .partner-small h3,
 .partner h3 {
-  text-align: center;
+  text-align: left;
   font-size: 12px;
 }
+
 
 .partner-small a {
   color: #5F5555;
@@ -44,6 +45,15 @@
   padding-left: 5px;
   text-decoration: none;
   cursor: pointer;
+}
+
+.partner-wrapper .partner a {
+  color: #5F5555;
+  font-size: 10px;
+  padding-left: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
 }
 
 .partner p {
@@ -126,6 +136,13 @@
     height: 100%;
     background-color: black;
   }
+
+  .partner-wrapper .partner a {
+    color: #5F5555;
+    font-size: 16px;
+    background-color: transparent;
+  }
+
 }
 
 @media(min-width: 1024px) and (orientation: landscape) {
@@ -159,5 +176,11 @@
 
   .partner-small a {
     font-size: 16px;
+  }
+
+  .partner-wrapper .partner a {
+    color: #5F5555;
+    background-color: transparent;
+    /* opacity: 1; */
   }
 }
