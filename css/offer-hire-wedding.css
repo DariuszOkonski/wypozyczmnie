@@ -30,6 +30,10 @@
   /* font-size: 20px; */
 }
 
+.offer-hire-wedding h2 span {
+  text-transform: lowercase;
+}
+
 .offer-hire-wedding h2::after {
   width: 280px;
 }
