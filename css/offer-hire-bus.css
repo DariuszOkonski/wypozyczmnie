@@ -32,7 +32,7 @@
 }
 
 .offer-hire-bus h2::after {
-  width: 280px;
+  width: 240px;
 }
 
 .offer-hire-bus .content {
@@ -184,6 +184,14 @@
 
 @media (min-width: 1024px) and (orientation: landscape) {
 
+  .offer-hire-bus h2 {
+    font-size: 40px;
+  }
+
+  .offer-hire-bus h2::after {
+    width: 350px;
+  }
+
   .offer-hire-bus .variants h3 {
     font-size: 28px;
     font-weight: 300;
@@ -207,5 +215,76 @@
 
   .offer-hire-bus a:hover {
     background-color: #b05d14;
+  }
+}
+
+/*=============== gallery */
+
+.gallery-bus {
+  position: relative;
+  min-height: 100vh;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery-bus h2::after {
+  width: 230px;
+}
+
+.gallery-bus .images {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+
+  background-color: black;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.gallery-bus a {
+  position: relative;
+  overflow: hidden;
+  opacity: 0.65;
+  transition: .5s;
+
+  flex-basis: 25%;
+  height: 33.3333%;
+  background-color: black;
+}
+
+
+
+.gallery-bus img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+@media(min-width: 1024px) and (orientation: landscape) {
+  header .nav ul a {
+    font-size: 14px;
+  }
+
+  .gallery-bus a:hover {
+    opacity: 1;
+  }
+
+  .gallery-bus h2 {
+    font-size: 40px;
+  }
+
+  .gallery-bus h2::after {
+    width: 340px;
   }
 }

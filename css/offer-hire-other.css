@@ -233,6 +233,14 @@
     color: #fff;
   }
 
+  .offer-hire-other h2 {
+    font-size: 40px;
+  }
+
+  .offer-hire-other h2::after {
+    width: 690px;
+  }
+
   .offer-hire-other .variants h3 {
     font-size: 28px;
     font-weight: 300;
