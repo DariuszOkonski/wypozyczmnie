@@ -30,6 +30,10 @@
   /* font-size: 20px; */
 }
 
+.offer-hire-other h2 span {
+  text-transform: lowercase;
+}
+
 .offer-hire-other h2::after {
   width: 250px;
 }

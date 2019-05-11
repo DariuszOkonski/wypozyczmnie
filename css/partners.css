@@ -26,6 +26,7 @@
   margin-right: auto;
   margin-bottom: 15px;
   color: #5F5555;
+  padding: 0 5px;
 }
 
 .partners h2::after {
@@ -38,6 +39,9 @@
   font-size: 12px;
 }
 
+.partner h3 {
+  padding-left: 5px;
+}
 
 .partner-small a {
   color: #5F5555;
