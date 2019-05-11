@@ -205,3 +205,66 @@
     background-color: #b05d14;
   }
 }
+
+/*=============== gallery */
+
+.gallery-wedding {
+  position: relative;
+  min-height: 100vh;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery-wedding h2::after {
+  width: 140px;
+}
+
+.gallery-wedding .images {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+
+  background-color: black;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.gallery-wedding a {
+  position: relative;
+  overflow: hidden;
+  opacity: 0.65;
+  transition: .5s;
+
+  flex-basis: 20%;
+  height: 33.3333%;
+  background-color: black;
+}
+
+
+
+.gallery-wedding img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+@media(min-width: 1024px) and (orientation: landscape) {
+  header .nav ul a {
+    font-size: 14px;
+  }
+
+  .gallery-wedding a:hover {
+    opacity: 1;
+  }
+}

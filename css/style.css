@@ -16,7 +16,7 @@ h2 {
   letter-spacing: 2px;
   padding-top: 20px;
   padding-bottom: 10px;
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 300;
   color: #5F5555;
 }
@@ -24,7 +24,7 @@ h2 {
 h2::after {
   content: '';
   display: block;
-  width: 100px;
+  width: 85px;
   height: 2px;
   background-color: #E67E22;
   margin: 10px auto 0;
