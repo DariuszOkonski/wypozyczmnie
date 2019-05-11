@@ -210,4 +210,8 @@
   .offer .promotion {
     font-size: 26px;
   }
+
+  .offer h2::after {
+    width: 165px;
+  }
 }

@@ -180,6 +180,14 @@
 
 @media (min-width: 1024px) and (orientation: landscape) {
 
+  .offer-hire-wedding h2 {
+    font-size: 40px;
+  }
+
+  .offer-hire-wedding h2::after {
+    width: 410px;
+  }
+
   .offer-hire-wedding .variants h3 {
     font-size: 28px;
     font-weight: 300;
@@ -266,5 +274,13 @@
 
   .gallery-wedding a:hover {
     opacity: 1;
+  }
+
+  .gallery-wedding h2 {
+    font-size: 40px;
+  }
+
+  .gallery-wedding h2::after {
+    width: 200px;
   }
 }

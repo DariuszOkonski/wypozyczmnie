@@ -103,4 +103,8 @@
     padding: 5px;
     margin-top: 10px;
   }
+
+  .events h2::after {
+    width: 280px;
+  }
 }

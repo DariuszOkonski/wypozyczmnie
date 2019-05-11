@@ -57,4 +57,8 @@
   .gallery a:hover {
     opacity: 1;
   }
+
+  .gallery h2::after {
+    width: 180px;
+  }
 }

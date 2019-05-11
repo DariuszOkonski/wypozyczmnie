@@ -98,4 +98,8 @@
   .contact .name p span {
     font-size: 35px;
   }
+
+  .contact h2::after {
+    width: 190px;
+  }
 }
