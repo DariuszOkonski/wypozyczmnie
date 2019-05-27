@@ -161,7 +161,7 @@ header .main-page ul li a {
 
 @media (min-width: 768px) and (orientation: portrait) {
   header .nav {
-    top: -350px;
+    top: -380px;
   }
 
   header .nav ul a {
