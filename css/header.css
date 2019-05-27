@@ -8,7 +8,41 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  /* to też dodałem do klipu */
+  overflow: hidden;
 }
+
+/* tu są css do klipu */
+header div.movie {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header div.movie video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  min-height: 100%;
+  min-width: 100%;
+  overflow: hidden;
+  width: auto;
+}
+
+header div.movie div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7)
+}
+
+/* tu się kończy klip */
 
 header .main-page {
   position: absolute;
