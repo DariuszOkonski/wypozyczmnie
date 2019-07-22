@@ -4,17 +4,18 @@ header {
   left: 0;
   width: 100%;
   height: 100vh;
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(backgrounds/IMG-20181212-WA0014.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(backgrounds/IMG-20181212-WA0014.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 
   /* to też dodałem do klipu */
   overflow: hidden;
 }
 
 /* tu są css do klipu */
-header div.movie {
+
+/* header div.movie {
   position: absolute;
   top: 0;
   left: 0;
@@ -40,7 +41,7 @@ header div.movie div {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.75)
-}
+} */
 
 /* tu się kończy klip */
 
